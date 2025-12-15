@@ -76,7 +76,8 @@ $$
 随后，通过该阈值生成二值化蒙版 $Y$：
 
 $$
-Y(i, j) = \begin{cases} 255 & \text{if } X(i, j) \ge T \\ 0 & \text{otherwise} \end{cases}
+Y(i, j) = \begin{cases} 255 & \text{if } X(i, j) \ge T \ 
+\ 0 & \text{otherwise} \end{cases}
 $$
 
 3.  **形态学处理 (Morphological Operations)**
